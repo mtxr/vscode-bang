@@ -15,7 +15,8 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:bang.runCommand"
+        "onCommand:bang.runCommand",
+        "onCommand:bang.runCommandAndInsert"
     ],
     "main": "./out/extension",
     "contributes": {
@@ -23,6 +24,11 @@
             {
                 "command": "bang.runCommand",
                 "title": "Run Command",
+                "category": "Bang!"
+            },
+            {
+                "command": "bang.runCommandAndInsert",
+                "title": "Run Command and insert result(s)",
                 "category": "Bang!"
             }
         ]
