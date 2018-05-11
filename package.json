@@ -2,7 +2,7 @@
     "name": "bang",
     "displayName": "Bang!",
     "description": "A Vim like utility to run shell commands in VSCode",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "publisher": "mtxr",
     "engines": {
         "vscode": "^1.23.0"
